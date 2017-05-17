@@ -1,10 +1,11 @@
 class Apg < Formula
   desc "Tool set for random password generation"
   homepage "http://www.adel.nursat.kz/apg/"
-  url "http://www.adel.nursat.kz/apg/download/apg-2.2.3.tar.gz"
+  url "https://s3-us-west-2.amazonaws.com/teamclairvoyant/homebrew-clairvoyant/source/apg-2.2.3.tar.gz"
   sha256 "69c9facde63958ad0a7630055f34d753901733d55ee759d08845a4eda2ba7dba"
 
   bottle do
+    root_url "https://s3-us-west-2.amazonaws.com/teamclairvoyant/homebrew-clairvoyant/bottles"
     cellar :any_skip_relocation
     sha256 "501a5f98cc6de3e4a0a6727db6133e477b8c1ce32b78efc38c6b9e711b55d9a1" => :sierra
     sha256 "3192b54701707ca69212ab7830f6814f81f96854e06b32e46c9413bd2a6f4cfb" => :el_capitan
